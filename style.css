@@ -1,11 +1,21 @@
 * {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 4px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
 }
 
 #head {
     background-color: #f7f7f7;
     text-align: center;
     font-size: 22px;
+    padding: 10px;
 }
 
 p {
@@ -13,7 +23,7 @@ p {
 }
 
 #price {
-    margin: 0;
+    font-size: 24px;
 }
 
 #shoes {
@@ -24,11 +34,51 @@ p {
 #freeship {
     color: #666;
     font-size: 12px;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .link {
     color: black;
+}
+
+.block {
+    background-color: #000;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#black-block {
+    background-color: black;
+}
+#blue-block {
+    background-color: blue;
+}
+#red-block {
+    background-color: red;
+}
+
+#yellow-block {
+    background-color: yellow;
+}
+
+#green-block {
+    background-color: green;
+}
+
+#brown-block {
+    background-color: brown;
+}
+
+#product {
+    position: relative;
+}
+
+ul, li {
+    margin: 10px;
 }
 
 .button {
@@ -47,9 +97,15 @@ p {
     background-color: white;
 }
 
-#container {
-    width: 800px;
-    margin: 0 auto;
-    border: 4px solid black;
-    line-height: 1.4;
+#sale {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+    left: -38px;
 }
